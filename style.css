@@ -432,13 +432,11 @@ ul.footer-social{
     line-height: 0px;
     display: inline;
     white-space: pre;
-    /* border: 1px solid rgb(237, 3, 3); */
 }
 
 .center-text-contaner {
     text-align: right;
     line-height: 20px;
-    /* border: 1px solid #000; */
     margin-top: 4px;
     margin-bottom: 24px;
     margin-right: 38%;
@@ -454,6 +452,11 @@ ul.footer-social{
     margin-bottom: 36px;
 }
 
+.privacy-button:hover {
+    border: 1px solid #fff;
+    box-shadow:0 0 30px rgb(73, 185, 250);
+}
+
 .button-align {
     text-align: right;
     margin-right: 26%;
@@ -466,8 +469,6 @@ ul.footer-social{
 
 .slides {
     overflow: hidden;
-    /* border: 3px solid red; */
-    /* height:  */
     height: 180px;
     width: 500px;
     position: relative;
@@ -491,13 +492,11 @@ ul.footer-social{
 
 .slide, .slide-1 {
     display: flex;
-    /* border: 10px solid rgb(255, 1, 187); */
     height: 180px;
     transition: margin-top ease 0.5s;
 }
 
 blockquote {
-    /* border: 2px solid pink; */
     height: inherit;
 }
 
@@ -507,13 +506,11 @@ blockquote p {
     line-height: 130%;
     color: black;
     vertical-align: text-top;
-    /* border: 1px solid purple; */
 }
 
 blockquote cite {
     font-family: "Malaga", serif;
     line-height: 260%;
-    /* border: 1px solid purple; */
     position: relative;
     top: -6px;
 }
@@ -529,10 +526,8 @@ input[name="r"] {
 }
 
 .navigation {
-    /* border: 2px solid green; */
     width: 39px;
     height: 70px;
-    /* display: flex; */
     position: absolute;
     top: 6px;
 }
@@ -543,7 +538,6 @@ input[name="r"] {
     height: 12px;
     background-color: #b7b7b7;
     border-radius: 50%;
-    /* border:1px solid #fc2028;     */
     margin: 9px 5px;
     cursor: pointer;
 
@@ -622,7 +616,8 @@ input[name="r"] {
  .any-device {
     width: 1060px;
     text-align: right;
-    /* border: 2px green solid; */
+    border: 2px blue solid;
+    margin-bottom: 150px; 
  }
 
  .any-device h3 {
@@ -637,35 +632,97 @@ input[name="r"] {
     text-align: right;
     line-height: 21px;
     padding-top: 6px;
-    /* float:right; */
-    margin: 0 0 0 auto;
-    /* border: 2px red solid; */
+    margin: 0 0 26px auto;
+    border: 2px red solid;
  }
 
  .black-buttons {
-    margin: 0 0 0 auto;
+    position: relative;
+    display: flex;
     height: 53px;
-    width: 171px; 
+    width: px; 
     border: 2px solid #5f2f6a;
+    text-align: left;
  }
 
- .any-device a {
-    /* position: relative;
-    background-color: black;
-    border-radius: 5px;
-    font-size: 100px;
-    height: 53px;
-    width: 171px; 
-    border: 2px solid #5f2f6a;
-    margin: 30px 3px 0px 6px;
-    left: -170px; */
+ .black-buttons #google-btn, #apple-btn {
+    justify-content: space-between;
  }
 
- .any-device a img {
-    position: absolute;
-    left: 0px;
-    top: 0px;
+ .black-buttons img {
+    width: 171px;
+    height: 54px;
+ }
+
+#google-btn {
     height: 53px;
     width: 171px;
-    /* margin: 30px 3px 0px 6px */
+    margin: 0px 0px 0px auto;
+    border: 2px red solid;
+ }
+
+ #apple-btn {
+    height: 53px;
+    width: 171px;
+    margin: 0px auto 0px 0px;
+    border: 2px red solid;
+ }
+
+ .fundamental  {
+    text-align: center;
+    line-height: 38px;
+    margin: 70px auto 40px;
+    border: 3 px red solid;
+ }
+
+ .fundamental h3 {
+    font-size: 34px;
+    font-weight: normal;
+    color: #555;
+    word-spacing: 3px;
+    border: 1 px red solid;
+ }
+
+ .fundamental p {
+    font-size: 28px;
+    border: 1 px green solid;
+ }
+
+ .btn-contaner {
+    display: flex;
+    justify-content: center;
+ }
+
+ .btn-contaner button {
+    font-size: 16px;
+    margin: 34px 24px;
+ }
+
+ .violet-button {
+    width: 236px;
+    background: linear-gradient(to right, #646c92, 50%, #5f2f6a);
+}
+
+ .blue-button {
+    width: 160px;
+    background: linear-gradient(to right, #39bbde, #5e7bea); 
+}
+
+ .blue-button:hover {
+    border: 1px solid #fff;
+    box-shadow:0 0 30px rgb(73, 185, 250);
+ }
+
+ .create img {
+    width: 200px;
+ }
+
+ .companies-contaner {
+    text-align: center;
+ }
+
+ #companies-img {
+    /* position: relative; */
+    width: 974px;
+    height: 92px;
  }
