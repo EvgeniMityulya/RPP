@@ -604,10 +604,9 @@ input[name="r"] {
     position: relative;
  }
 
- .computer img {
+ .computer > img {
     height: 640px;
     position: absolute;
-    /* border: 2px rgb(17, 0, 255) solid; */
     z-index: -1;
     top: -260px;
     left: 906px;
@@ -616,7 +615,6 @@ input[name="r"] {
  .any-device {
     width: 1060px;
     text-align: right;
-    border: 2px blue solid;
     margin-bottom: 150px; 
  }
 
@@ -629,43 +627,19 @@ input[name="r"] {
  .any-device p {
     font-size: 16px;
     width: 450px;
-    text-align: right;
     line-height: 21px;
     padding-top: 6px;
+    padding-right: 6px;
     margin: 0 0 26px auto;
-    border: 2px red solid;
  }
 
  .black-buttons {
-    position: relative;
     display: flex;
-    height: 53px;
-    width: px; 
-    border: 2px solid #5f2f6a;
-    text-align: left;
+    margin: 0 0 0 690px;
  }
 
- .black-buttons #google-btn, #apple-btn {
-    justify-content: space-between;
- }
-
- .black-buttons img {
-    width: 171px;
-    height: 54px;
- }
-
-#google-btn {
-    height: 53px;
-    width: 171px;
-    margin: 0px 0px 0px auto;
-    border: 2px red solid;
- }
-
- #apple-btn {
-    height: 53px;
-    width: 171px;
-    margin: 0px auto 0px 0px;
-    border: 2px red solid;
+ .black-buttons > div {
+    padding: 3px 0 0 10px;
  }
 
  .fundamental  {
